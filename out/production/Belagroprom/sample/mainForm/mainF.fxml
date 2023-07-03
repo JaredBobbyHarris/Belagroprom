@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #FF0000;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.mainForm.mainController">
+    <children>
+        <AnchorPane layoutY="70.0" prefHeight="423.0" prefWidth="900.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <ImageView fitHeight="350.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../assets/bank-dabrabit.jpg" />
+                    </image>
+                </ImageView>
+                <Button fx:id="butCl" layoutX="350.0" layoutY="330.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #FF0000;" text="Перейти к модулю &quot;Клиенты&quot;" textFill="#fffefe" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="380.0" layoutY="14.0" text="Банк Дабрабыт" textFill="#fffdfd">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

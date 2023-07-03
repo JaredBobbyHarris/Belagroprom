@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="705.0" prefWidth="901.0" style="-fx-background-color: #FF0000;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.addCl.addClController">
+    <children>
+        <AnchorPane layoutY="48.0" prefHeight="634.0" prefWidth="901.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Button fx:id="addBut" layoutX="611.0" layoutY="491.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #FF0000;" text="Добавить" textFill="WHITE">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+                <Label layoutX="316.0" layoutY="113.0" prefHeight="44.0" prefWidth="216.0" text="Город проживания">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Button fx:id="backBut" layoutX="611.0" layoutY="552.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #FF0000;" text="Назад" textFill="#fffbfb">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+                <ComboBox fx:id="gorF" layoutX="316.0" layoutY="151.0" prefHeight="25.0" prefWidth="250.0" promptText="выбрать город" />
+                <TextField fx:id="famF" layoutX="23.0" layoutY="43.0" prefHeight="25.0" prefWidth="250.0" promptText="Фамилия" />
+                <Label layoutX="23.0" layoutY="13.0" prefHeight="30.0" prefWidth="216.0" text="Фамилия">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label layoutX="23.0" layoutY="179.0" prefHeight="30.0" prefWidth="216.0" text="Дата рождения(yyyy-mm-dd)">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="dateF" layoutX="23.0" layoutY="209.0" prefHeight="25.0" prefWidth="250.0" promptText="Дата(yyyy-mm-dd)" />
+            <TextField fx:id="nameF" layoutX="23.0" layoutY="99.0" prefHeight="25.0" prefWidth="250.0" promptText="Имя" />
+            <Label layoutX="23.0" layoutY="69.0" prefHeight="30.0" prefWidth="216.0" text="Имя">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="otF" layoutX="23.0" layoutY="154.0" prefHeight="25.0" prefWidth="250.0" promptText="Отчество" />
+            <Label layoutX="23.0" layoutY="124.0" prefHeight="30.0" prefWidth="216.0" text="Отчество">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="serF" layoutX="23.0" layoutY="336.0" prefHeight="25.0" prefWidth="250.0" promptText="Серия паспорта" />
+            <Label layoutX="23.0" layoutY="306.0" prefHeight="30.0" prefWidth="216.0" text="Серия паспорта">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nomF" layoutX="23.0" layoutY="391.0" prefHeight="25.0" prefWidth="250.0" promptText="Номер паспорта" />
+            <Label layoutX="23.0" layoutY="361.0" prefHeight="30.0" prefWidth="216.0" text="Номер паспорта">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="vidF" layoutX="23.0" layoutY="446.0" prefHeight="25.0" prefWidth="250.0" promptText="Кем выдан" />
+            <Label layoutX="23.0" layoutY="416.0" prefHeight="30.0" prefWidth="216.0" text="Кем выдан">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="datevF" layoutX="23.0" layoutY="497.0" prefHeight="25.0" prefWidth="250.0" promptText="Дата выдачи(yyyy-mm-dd)" />
+            <Label layoutX="23.0" layoutY="467.0" prefHeight="30.0" prefWidth="216.0" text="Дата выдачи(yyyy-mm-dd)">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="polM" layoutX="23.0" layoutY="273.0" mnemonicParsing="false" text="Мужской" />
+            <Label layoutX="23.0" layoutY="234.0" prefHeight="30.0" prefWidth="216.0" text="Пол">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="polG" layoutX="148.0" layoutY="273.0" mnemonicParsing="false" text="Женский" />
+            <TextField fx:id="idnF" layoutX="316.0" layoutY="43.0" prefHeight="25.0" prefWidth="250.0" promptText="ИДН" />
+            <Label layoutX="316.0" layoutY="13.0" prefHeight="30.0" prefWidth="216.0" text="ИДН">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="mrF" layoutX="316.0" layoutY="100.0" prefHeight="25.0" prefWidth="250.0" promptText="Место рождения" />
+            <Label layoutX="316.0" layoutY="70.0" prefHeight="30.0" prefWidth="216.0" text="Место рождения">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="adrF" layoutX="317.0" layoutY="208.0" prefHeight="25.0" prefWidth="250.0" promptText="Адрес проживания" />
+            <Label layoutX="317.0" layoutY="178.0" prefHeight="30.0" prefWidth="216.0" text="Адрес проживания">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="teldF" layoutX="316.0" layoutY="267.0" prefHeight="25.0" prefWidth="250.0" promptText="Телефон домашний" />
+            <Label layoutX="316.0" layoutY="237.0" prefHeight="30.0" prefWidth="216.0" text="Телефон домашний">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="telmF" layoutX="316.0" layoutY="336.0" prefHeight="25.0" prefWidth="250.0" promptText="Телефон мобильный" />
+            <Label layoutX="317.0" layoutY="306.0" prefHeight="30.0" prefWidth="216.0" text="Телефон мобильный">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="mailF" layoutX="316.0" layoutY="391.0" prefHeight="25.0" prefWidth="250.0" promptText="мэйл" />
+            <Label layoutX="317.0" layoutY="361.0" prefHeight="30.0" prefWidth="216.0" text="Мэйл">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="rabF" layoutX="316.0" layoutY="446.0" prefHeight="25.0" prefWidth="250.0" promptText="Работа" />
+            <Label layoutX="316.0" layoutY="416.0" prefHeight="30.0" prefWidth="216.0" text="Работа">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="dolF" layoutX="316.0" layoutY="497.0" prefHeight="25.0" prefWidth="250.0" promptText="Должность" />
+            <Label layoutX="316.0" layoutY="467.0" prefHeight="30.0" prefWidth="216.0" text="Должность">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="gorpF" layoutX="611.0" layoutY="43.0" prefHeight="25.0" prefWidth="250.0" promptText="Город прописки" />
+            <Label layoutX="611.0" layoutY="13.0" prefHeight="30.0" prefWidth="216.0" text="Город прописки">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="adrpF" layoutX="611.0" layoutY="98.0" prefHeight="25.0" prefWidth="250.0" promptText="Адрес прописки" />
+            <Label layoutX="611.0" layoutY="68.0" prefHeight="30.0" prefWidth="216.0" text="Адрес прописки">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="611.0" layoutY="113.0" prefHeight="44.0" prefWidth="216.0" text="Семейное положение">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="spF" layoutX="611.0" layoutY="151.0" prefHeight="25.0" prefWidth="250.0" promptText="выбрать Семейное положение" />
+            <Label layoutX="611.0" layoutY="171.0" prefHeight="44.0" prefWidth="216.0" text="Гражданство">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="grF" layoutX="611.0" layoutY="207.0" prefHeight="25.0" prefWidth="250.0" promptText="выбрать Гражданство" />
+            <Label layoutX="611.0" layoutY="230.0" prefHeight="44.0" prefWidth="216.0" text="Инвалидность">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="invF" layoutX="611.0" layoutY="269.0" prefHeight="25.0" prefWidth="250.0" promptText="выбрать Инвалидность" />
+            <CheckBox fx:id="penY" layoutX="611.0" layoutY="335.0" mnemonicParsing="false" text="Да" />
+            <Label layoutX="611.0" layoutY="306.0" prefHeight="30.0" prefWidth="216.0" text="Пенсионер">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="penN" layoutX="736.0" layoutY="335.0" mnemonicParsing="false" text="Нет" />
+            <TextField fx:id="dohF" layoutX="611.0" layoutY="391.0" prefHeight="25.0" prefWidth="250.0" promptText="Доход" />
+            <Label layoutX="611.0" layoutY="361.0" prefHeight="30.0" prefWidth="216.0" text="Доход">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="voY" layoutX="611.0" layoutY="449.0" mnemonicParsing="false" text="Да" />
+            <Label layoutX="611.0" layoutY="416.0" prefHeight="30.0" prefWidth="216.0" text="Военнообязонный">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="voN" layoutX="736.0" layoutY="449.0" mnemonicParsing="false" text="Нет" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="28.0" layoutY="14.0" text="Добавление клиента" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

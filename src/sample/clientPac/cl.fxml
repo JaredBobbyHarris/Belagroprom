@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="1000.0" style="-fx-background-color: #FF0000;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.clientPac.clController">
+    <children>
+        <AnchorPane layoutY="48.0" prefHeight="563.0" prefWidth="1000.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Button fx:id="addBut" layoutX="14.0" layoutY="501.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #FF0000;" text="Добавить" textFill="WHITE">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+                <Button fx:id="delBut" layoutX="286.0" layoutY="501.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #FF0000;" text="Удалить" textFill="#fffbfb">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+                <TableView fx:id="table" layoutX="14.0" layoutY="40.0" prefHeight="450.0" prefWidth="950.0">
+                    <columns>
+                        <TableColumn fx:id="idField" prefWidth="30.0" text="Код" />
+                        <TableColumn fx:id="idfam" prefWidth="75.0" text="Фамилия" />
+                        <TableColumn fx:id="idname" prefWidth="75.0" text="Имя" />
+                        <TableColumn fx:id="idot" prefWidth="75.0" text="Отчество" />
+                        <TableColumn fx:id="iddate" prefWidth="100.0" text="Дата рождения" />
+                        <TableColumn fx:id="idpol" prefWidth="80.0" text="Пол" />
+                        <TableColumn fx:id="idser" prefWidth="108.0" text="Серия паспорта" />
+                        <TableColumn fx:id="idnomp" prefWidth="108.0" text="Номер паспорта" />
+                        <TableColumn fx:id="idvidan" prefWidth="100.0" text="Кем выдан" />
+                        <TableColumn fx:id="iddatev" prefWidth="80.0" text="Дата выдачи" />
+                        <TableColumn fx:id="ididn" prefWidth="100.0" text="ИДН" />
+                        <TableColumn fx:id="idmesto" prefWidth="110.0" text="Место рождения" />
+                        <TableColumn fx:id="idgor" prefWidth="120.0" text="Город проживания" />
+                        <TableColumn fx:id="idadr" prefWidth="120.0" text="Адрес проживания" />
+                        <TableColumn fx:id="idteld" prefWidth="100.0" text="Тел. домашний" />
+                        <TableColumn fx:id="idtelm" prefWidth="110.0" text="Тел. мобильный" />
+                        <TableColumn fx:id="idmail" prefWidth="90.0" text="E-mail" />
+                        <TableColumn fx:id="idmr" prefWidth="90.0" text="Место работы" />
+                        <TableColumn fx:id="iddol" prefWidth="75.0" text="Должность" />
+                        <TableColumn fx:id="idgorp" prefWidth="110.0" text="Город прописки" />
+                        <TableColumn fx:id="idadrp" prefWidth="100.0" text="Адрес прописки" />
+                        <TableColumn fx:id="idsp" prefWidth="140.0" text="Семейное положение" />
+                        <TableColumn fx:id="idgrag" prefWidth="90.0" text="Гражданство" />
+                        <TableColumn fx:id="idinv" prefWidth="90.0" text="Инвалидность" />
+                        <TableColumn fx:id="idpens" prefWidth="75.0" text="Пенсионер" />
+                        <TableColumn fx:id="iddoh" prefWidth="75.0" text="Доход" />
+                        <TableColumn fx:id="idvoen" prefWidth="120.0" text="Военнообязанный" />
+                    </columns>
+                </TableView>
+                <Button fx:id="backBut" layoutX="571.0" layoutY="501.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #FF0000;" text="Назад" textFill="#fffbfb">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="28.0" layoutY="14.0" text="Модуль Клиенты" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="750.0" style="-fx-background-color: #FF0000;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.clientMod.clientMController">
+    <children>
+        <AnchorPane layoutX="1.0" layoutY="71.0" prefHeight="423.0" prefWidth="743.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <ImageView fitHeight="350.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../assets/logo.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="client" layoutX="80.0" layoutY="333.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="185.0" style="-fx-background-color: #FF0000;" text="Клиенты" textFill="#fffefe" />
+                <Button fx:id="gor" layoutX="537.0" layoutY="80.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="145.0" style="-fx-background-color: #FF0000;" text="Города" textFill="#fffefe" />
+            <Button fx:id="gragd" layoutX="537.0" layoutY="130.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="145.0" style="-fx-background-color: #FF0000;" text="Гражданство" textFill="#fffefe" />
+            <Button fx:id="ival" layoutX="537.0" layoutY="180.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="145.0" style="-fx-background-color: #FF0000;" text="Инвалидность" textFill="#fffefe" />
+            <Button fx:id="sp" layoutX="537.0" layoutY="230.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="145.0" style="-fx-background-color: #FF0000;" text="Семейное положение" textFill="#fffefe" />
+            <Button fx:id="back" layoutX="537.0" layoutY="330.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="145.0" style="-fx-background-color: #FF0000;" text="Назад" textFill="#fffefe" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="320" layoutY="14.0" text="Клиенты" textFill="#fffdfd">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
